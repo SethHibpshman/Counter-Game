@@ -1,6 +1,6 @@
 # Counter Game
 
-> A two-player button-mashing contest built on the ESP32-S3, featuring a live countdown timer, real-time score tracking, a sparkle winner animation, and automatic game reset — all rendered on a 128x64 OLED display.
+> A two-player button-mashing contest built on the ESP32-S3, featuring a live countdown timer, real-time score tracking, a sparkle winner animation, and automatic game reset: all rendered on a 128x64 OLED display.
 
 ## Table of Contents
 
@@ -23,7 +23,7 @@
 
 Counter Game is a two-player competitive button-mashing game built on the ESP32-S3 and programmed in MicroPython. Each player presses their button as fast as possible during a 10-second round, while live scores and a countdown timer update in real time on a shared OLED display. When time runs out, the winner is announced with a sparkle particle animation.
 
-The project was designed and built for **EENG 163: Introduction to Embedded Systems** at Eastern Washington University, covering hardware input handling, OLED display rendering, timing and debounce logic, and real-time game state management.
+The project was a first demonstration of my knowledge after reading a book on MicroPython and the ESP32 Module. This demo covers hardware input handling, OLED display rendering, timing and debounce logic, and real-time game state management.
 
 
 ## Functionality
@@ -61,7 +61,7 @@ In the case of equal scores, a `Tie!` message is shown instead. The animation lo
 
 ### Reset Behavior
 
-At any point — during the game or on the winner screen — **holding both buttons simultaneously for 2 seconds** resets the device back to the countdown sequence.
+At any point, during the game or on the winner screen, **holding both buttons simultaneously for 2 seconds** resets the device back to the countdown sequence.
 
 
 ## System Design
